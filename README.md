@@ -29,3 +29,17 @@ What is the asymptotic runtime ($\Theta$) of your algorithm in terms of the
 number of comparisons? What is it in terms of the number of flips? Add your
 answer to this markdown file.
 
+Comparisons: In terms of the comparisons this references two for loops, where the first for loop in  the function pancakeSort iterates through n elements in the array. The second within the findLargestPancake function runs n-1 times for the first iteration and n-2 for the second iteration which simplifies to n. When we multiply both of the for loops together, we get n*n which gives us n^2.
+
+Flips: In terms of flips, this is O(n). This is because we perform two flips at most, one where it moves the largest element to the start of the array and the other where it moves the element to its correct position. This gives n+n or 2n, but because we ignore constants this simplifies down to just n. 
+
+
+
+"I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice."
+
+
+
+Sources:
+https://www.youtube.com/watch?v=j4IqHVNuAzw - visualize pancake sort 
+Blackbox AI  - used for help during pancakeSort function 
+
