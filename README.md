@@ -41,5 +41,6 @@ Flips: In terms of flips, this is O(n). This is because we perform two flips at 
 
 Sources:
 https://www.youtube.com/watch?v=j4IqHVNuAzw - visualize pancake sort 
+
 Blackbox AI  - used for help during pancakeSort function 
 
